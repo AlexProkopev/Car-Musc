@@ -227,7 +227,6 @@ address {
 }
 
 .button-hero:hover + .button-container {
-  transform: translate(-50%, -50%);
   opacity: 1;
   pointer-events: all;
   visibility: visible;
