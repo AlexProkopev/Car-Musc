@@ -191,9 +191,6 @@ address {
 
 .container-hover-btn-hero:hover .button-container {
   transform: translate(-50%, -50%);
-  /* opacity: 1;
-  pointer-events: all;
-  visibility: visible; */
 }
 
 .container-hover-btn-hero {
@@ -210,9 +207,6 @@ address {
   display: inline-block;
   position: absolute;
 
-  pointer-events: none;
-  visibility: hidden;
-
   top: 50%;
   left: 50%;
   transform: translate(-150%, -50%);
@@ -224,12 +218,6 @@ address {
   background-color: #db3138;
 
   transition: all 250ms linear;
-}
-
-.button-hero:hover + .button-container {
-  opacity: 1;
-  pointer-events: all;
-  visibility: visible;
 }
 
 .address {
