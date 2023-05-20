@@ -1,0 +1,12 @@
+<svg aria-hidden="true" style="position: absolute; width: 0; height: 0; overflow: hidden;" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<defs>
+<symbol id="icon-logo" viewBox="0 0 64 32">
+<path  d="M12.8 0h51.2v3.84h-51.2v-3.84z"></path>
+<path  d="M0 14.080h51.2v3.84h-51.2v-3.84z"></path>
+<path  d="M12.8 28.16h51.2v3.84h-51.2v-3.84z"></path>
+</symbol>
+<symbol id="icon-romb-hero" viewBox="0 0 30 32">
+<path fill="#db3138" style="fill: var(--color1, #db3138)" d="M0.142 16l14.142-14.142 14.142 14.142-14.142 14.142-14.142-14.142z"></path>
+</symbol>
+</defs>
+</svg>
