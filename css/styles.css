@@ -267,12 +267,105 @@ address {
   color: var(--red-color);
 }
 
-/* @keyframes changeBgBtn {
-  0% {
-    background-color: inherit;
-  }
+/* ----------FEAUCHERS--------------- */
 
-  100% {
-    background-color: var(--red-color);
-  }
-} */
+.container-feuchers {
+  display: flex;
+  gap: 24px;
+  justify-content: baseline;
+}
+
+.title-feuchers {
+  font-style: normal;
+
+  line-height: 1.4;
+
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.romb-feuchers {
+  margin-top: 40px;
+  margin-bottom: 60px;
+  justify-content: flex-start;
+}
+
+.text-feuchers {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+}
+
+.container-table {
+  display: flex;
+}
+
+.section-feuchers {
+  background-color: #141414;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
+
+.table-left {
+  border: 1px solid #898989;
+  display: flex;
+  flex-direction: column;
+  width: 314px;
+
+  padding-top: 34px;
+  padding-bottom: 34px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.title-table {
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--red-color);
+}
+
+/* Пришлось добится ширины таблицы при помощи размера таекста,так как шрифт можно скачать только в одной ширине,остальные платные */
+
+.text-table {
+  width: 277px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+
+.table-right-prymary {
+  margin-top: 40px;
+}
+
+/* ------------CARD-------------- */
+
+.section-card {
+  background-color: #141414;
+  padding: 180px 0;
+}
+
+.list-card {
+  display: flex;
+  gap: 24px;
+}
+
+.text-card {
+  font-family: "ReformaGroteskDemiC", sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
