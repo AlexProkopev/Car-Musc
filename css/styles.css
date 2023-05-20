@@ -52,6 +52,7 @@ img {
 
 body {
   max-width: 1920px;
+  padding: 0;
   font-family: "ReformaGroteskMediumC", sans-serif;
   color: var(--white-color);
 }
@@ -127,7 +128,6 @@ address {
   max-width: 1920px;
   padding-top: 237px;
   background-image: url(../images/bg.jpg);
-  margin: 0 auto;
 }
 
 .title-hero {
