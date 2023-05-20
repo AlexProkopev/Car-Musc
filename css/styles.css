@@ -169,7 +169,6 @@ address {
   color: var(--white-color);
   padding: 12px 35px;
 
-  margin-top: 55px;
   margin-left: auto;
   margin-right: auto;
   border: none;
@@ -199,17 +198,18 @@ address {
 
 .container-hover-btn-hero {
   position: relative;
+  overflow: hidden;
   width: 260px;
   height: 61px;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 55px;
 }
 
 .container-hover-btn-hero .button-container {
   display: inline-block;
   position: absolute;
 
-  opacity: 0;
   pointer-events: none;
   visibility: hidden;
 
