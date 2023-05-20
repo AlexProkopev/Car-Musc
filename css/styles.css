@@ -127,6 +127,7 @@ address {
   max-width: 1920px;
   padding-top: 237px;
   background-image: url(../images/bg.jpg);
+  margin: 0 auto;
 }
 
 .title-hero {
@@ -187,18 +188,35 @@ address {
 
 .button-hero {
   position: relative;
-  z-index: 1;
 }
 
-.button-hero::before {
+.container-hover-btn-hero:hover .button-container {
+  transform: translate(-50%, -50%);
+  /* opacity: 1;
+  pointer-events: all;
+  visibility: visible; */
+}
+
+.container-hover-btn-hero {
+  position: relative;
+  width: 260px;
+  height: 61px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-hover-btn-hero .button-container {
   display: inline-block;
   position: absolute;
-  opacity: 1;
-  padding: 0;
+
+  opacity: 0;
+  pointer-events: none;
+  visibility: hidden;
 
   top: 50%;
   left: 50%;
   transform: translate(-150%, -50%);
+
   width: 260px;
   height: 61px;
   content: "";
@@ -208,8 +226,11 @@ address {
   transition: all 250ms linear;
 }
 
-.button-hero:hover::before {
+.button-hero:hover + .button-container {
   transform: translate(-50%, -50%);
+  opacity: 1;
+  pointer-events: all;
+  visibility: visible;
 }
 
 .address {
@@ -255,3 +276,13 @@ address {
   text-transform: uppercase;
   color: var(--red-color);
 }
+
+/* @keyframes changeBgBtn {
+  0% {
+    background-color: inherit;
+  }
+
+  100% {
+    background-color: var(--red-color);
+  }
+} */
