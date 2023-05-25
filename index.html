@@ -120,7 +120,7 @@
         </address>
         </section>
 
-        <section class="section-feuchers">
+        <section class="section">
             <div class="container container-feuchers">
                 <div class="feuchers-left">
                     <h2 class="title-feuchers">наши достижения от кубка <br> россии до чемпионатов мира</h2>
@@ -154,7 +154,7 @@
                         Praesent malesuada lacus tellus tristique sit at. Sed viverra nulla nam arcu, non iaculis pretium, volutpat.</p>
                 </div>
 
-                <div class="container-table">
+                <div class="container-table ">
                     <table class="table-left-prymary">
                         <tr class="table-left">
                             <th class="title-table ">#1</th>
@@ -204,14 +204,14 @@
             </div>
         </section>
 
-        <section class="section-card">
+        <section class="section-card section">
             <div class="container container-card">
                 <h1 hidden>Card</h1>
                 
                 <ul class="list-card">
                     <li>
-                        <a href="#">
-                            <div class="container-card-second">
+                        <a href="#" class="link-card">
+                            <div class="owerlay-container">
                                 <img src="./images/auto-card-1.jpg" alt="">
                                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit ante.</p>
                             </div>
@@ -219,8 +219,8 @@
                     </li>
                 
                     <li>
-                        <a href="#">
-                            <div class="container-card">
+                        <a href="#" class="link-card">
+                            <div class="owerlay-container">
                                 <img src="./images/auto-card-2.jpg" alt="">
                                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit ante.</p>
                             </div>
@@ -228,8 +228,8 @@
                     </li>
                 
                     <li>
-                        <a href="#">
-                            <div class="container-card">
+                        <a href="#" class="link-card">
+                            <div class="owerlay-container">
                                 <img src="./images/auto-card-3.jpg" alt="">
                                 <p class="text-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vulputate laoreet sapien a sit ante.</p>
                             </div>
@@ -238,6 +238,113 @@
                 </ul>
             </div>
         </section>
+
+        <section class="section">
+           <ul class="offering-list">
+            <li>
+                <h2 class="offering-title">материалы от лучших компаний</h2>
+                <p class="offering-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pretium, rutrum est, molestie proin tristique duis sed.
+                    Morbi
+                    suspendisse amet nisl vestibulum risus. Quis pretium</p>
+            </li>
+
+            <li>
+                <h2 class="offering-title">Опытные мастера</h2>
+                <p class="offering-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Et donec elementum egestas vitae ullamcorper. Amet volutpat
+                ornare pharetra amet adipiscing orci, lectus aenean ultricies. Erat viverra eget blandit ornare. Molestie ipsum commodo
+                faucibus rhoncus</p>
+            </li>
+
+            <li>
+                <h2 class="offering-title">Гарантия на все виды работы</h2>
+                <p class="offering-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum volutpat.</p>
+            </li>
+           </ul>
+
+           <ul>
+            <li>
+                <img src="./images/car-offering.jpg" alt="car-photo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque auctor nibh feugiat est. Consectetur lectus.</p>
+            </li>
+           </ul>
+        </section>
     </main>
+
+    <div class="backdrop">
+        <div class="modal">
+            <button type="button" class="button-close-modal">
+
+            </button>
+
+            <h2 class="title-modal">ответим на любой вопрос</h2>
+
+            <div class="romb-svg romb-modal">
+                <svg width="10" height="10">
+                    <use href="./images/icons.svg#icon-romb-hero">
+            
+                    </use>
+                </svg>
+                <svg width="10" height="10">
+                    <use href="./images/icons.svg#icon-romb-hero">
+            
+                    </use>
+                </svg>
+                <svg width="10" height="10">
+                    <use href="./images/icons.svg#icon-romb-hero">
+            
+                    </use>
+                </svg>
+                <svg width="10" height="10">
+                    <use href="./images/icons.svg#icon-romb-hero">
+            
+                    </use>
+                </svg>
+            </div>
+         
+            <!-- ------------------------ФОРМА------------------- -->
+
+            <form class="list-form">
+                
+                <div class="container-input">
+                    <input type="text" autocomplete="on" name="user-name" placeholder="Имя" class="user-name-input">
+                    
+                    <input type="tel" autocomplete="on" name="user-tel" placeholder="Телефон" class="user-name-input">
+                </div>
+
+                
+                <div class="container-texteria">
+                    <textarea name="user-comment" placeholder="Вопрос по дизайну, тюнингу и др." class="comment-input"></textarea>
+                    
+                    <ul class="list-icons-social-form">
+                        <li>
+                            <div class="icons-social-media-form">
+                    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons-social-media-form">
+                    
+                            </div>
+                        </li>
+                        <li>
+                            <div class="icons-social-media-form">
+                    
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="btn-form-bg-container">
+                    
+                    <button type="submit" class="btn-form-send">отправить</button>
+
+                    <div class="btn-form-bg"></div>
+                    
+                </div>
+                
+                
+            </form>
+        </div>
+    </div>
 </body>
 </html>
